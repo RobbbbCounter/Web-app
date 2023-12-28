@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+      <br> <br>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6">
+
+            
+            <script>
+
+              let pdfCanvas  = document.getElementById('crop-pdf-canvas');
+            let overlayCanvas = document.getElementById('overlayCanvas');
+
+            let context = pdfCanvas.getContext('2d');
+            let overlayContext = overlayCanvas.getContext('2d');
+            
+            overlayCanvas.width = pdfCanvas.width;
+            overlayCanvas.height = pdfCanvas.height;
+
+                          let startY = 0;
+            let rectWidth = 0;
+            let rectHeight = 0;
