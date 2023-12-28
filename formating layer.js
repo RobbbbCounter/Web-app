@@ -13,7 +13,7 @@ const App = () => {
         CLIENT: 'CLIENT',
         ADMIN: 'ADMIN'
     }
-
+//placing events in the execution queue
     transform: {
     /* Use babel-jest to transpile tests with the next/babel preset
         https://jestjs.io/docs/configuration#transform-objectstring-pathtotransformer--pathtotransformer-object */
